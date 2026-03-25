@@ -1,0 +1,35 @@
+Capítol 1 — Introducció (estructura recomanada)
+
+1.1 Context i motivació
+Importància del TSP en optimització combinatòria.
+Aplicacions reals.
+Dificultat computacional (NP-dur).
+
+1.2 El problema del TSP
+Definició intuïtiva.
+Variants (simètric, asimètric, multi-TSP) → només mencionar-les.
+Enfocament del TFM: TSP simètric euclidià.
+
+1.3 Estat actual del camp (visió general)
+Heurístics clàssics (només mencionar-los).
+Algorismes exactes (Concorde).
+Nous enfocaments basats en ML (Pointer Networks, GNNs, Transformers).
+
+1.4 Motivació del projecte
+Per què explorar GNNs i Transformers per al TSP.
+Limitacions dels heurístics clàssics.
+Potencial de les xarxes neuronals.
+
+1.5 Objectius del treball
+Objectiu general.
+Objectius específics.
+
+1.6 Contribucions del TFM
+Implementació d’heurístics.
+Creació/ús del dataset amb solucions òptimes.
+Entrenament de GCN i Transformers.
+Comparació exhaustiva.
+Anàlisi de resultats.
+
+1.7 Estructura de la memòria
+Breu descripció de cada capítol.

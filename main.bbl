@@ -1,0 +1,23 @@
+\begin{thebibliography}{xxxx}
+
+\bibitem[Coleman 1974]{Coleman1974}
+Rodney Coleman.
+\newblock Stochastic processes.
+\newblock Publisher Name, 1974.
+
+\bibitem[Concorde 015]{ConcordeTSP}
+Concorde.
+\newblock {\em {Concorde TSP Solver}}, (Last Updated: March 2015).
+\newblock Available at \url{https://www.math.uwaterloo.ca/tsp/concorde.html}.
+
+\bibitem[MVTec 021]{Halcon}
+MVTec.
+\newblock {\em {MVTec Software GmbH HALCON - The power of machine vision}}, (Accessed: June 2021).
+\newblock Available at \url{https://www.mvtec.com/products/halcon/}.
+
+\bibitem[Ruiz 2008]{Ruiz2008}
+M~Ruiz, I~Boada, I~Viola, S~Bruckner, M~Feixas and M~Sbert.
+\newblock {\em {Obscurance-based Volume Rendering Framework}}.
+\newblock Symposium A Quarterly Journal In Modern Foreign Literatures, vol.~i, 2008.
+
+\end{thebibliography}
