@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1774469088.71011 "main.aux" "main.bbl" "main" 1774469364.43712 0
+["bibtex main"] 1775410117.26266 "main.aux" "main.bbl" "main" 1775410275.89076 0
   "./ThesisStyleBreakable.bst" 1622620344 22238 968758d2fb78e6a78b772e3279898aec ""
-  "./biblio.bib" 1774466193.06601 838 b10f53468e33e453ea11461744ca8937 ""
-  "main.aux" 1774469363.5878 7982 400664021803b0479fbd728940a8a74c "pdflatex"
+  "./biblio.bib" 1775410106.88297 2701 f1f201cefd53be5dfff2552aa5084038 ""
+  "main.aux" 1775410275.0089 9721 77bc19cbda111ee02121baf5cb57e65b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1774469361.21593 "/Users/enricpineraipons/Desktop/Data Science/10. Treball Final de Master/template/main.tex" "main.pdf" "main" 1774469364.4377 0
-  "/Users/enricpineraipons/Desktop/Data Science/10. Treball Final de Master/template/main.tex" 1774469360.70865 21261 ab8511dce4484c92b04a21679f65f39d ""
+["pdflatex"] 1775410271.84421 "/Users/enricpineraipons/Desktop/Data Science/10. Treball Final de Master/template/main.tex" "main.pdf" "main" 1775410275.89159 0
+  "/Users/enricpineraipons/Desktop/Data Science/10. Treball Final de Master/template/main.tex" 1775410270.85003 26467 bc909c35270711678706d09ee9d6e6c2 ""
   "/usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc" 1741388039 6938 5135be6a8802f13a7faf296d1959a1ab ""
   "/usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
@@ -162,14 +162,14 @@
   "ThesisStyle.cls" 1622620344 23955 9972c8df8418f477f1a0abad584019ae ""
   "imatges/2-opt_3-opt.png" 1744321649.63634 343633 68bfc0ed168ce5c272e81dfb008b7271 ""
   "imatges/logo_eps.png" 1622620344 8615 77ad2511cf6016f837073d397c0ab137 ""
-  "main.aux" 1774469363.5878 7982 400664021803b0479fbd728940a8a74c "pdflatex"
-  "main.bbl" 1774469088.91427 805 5d5dc89f1dc43372305ef625b01a4090 "bibtex main"
-  "main.brf" 1774469363.59119 174 ccca39beb7f135a95c105e6c4d1f3cea "pdflatex"
-  "main.lof" 1774469363.59198 382 49c523c0d38c7416e3ec4dc59607d2c4 "pdflatex"
-  "main.lot" 1774469363.59207 510 4f52d58708e09f85db690638e0572c48 "pdflatex"
-  "main.out" 1774469363.59075 3338 565be538aa2e5e244bd03b8aeafa215c "pdflatex"
-  "main.tex" 1774469360.70865 21261 ab8511dce4484c92b04a21679f65f39d ""
-  "main.toc" 1774469363.59186 2000 45826660cfbeb50ecf6fa675e461a41e "pdflatex"
+  "main.aux" 1775410275.0089 9721 77bc19cbda111ee02121baf5cb57e65b "pdflatex"
+  "main.bbl" 1775410117.47666 2424 3d5cd2c45a0bd596420cf1ea606b59da "bibtex main"
+  "main.brf" 1775410275.01282 561 6a168e1be17a288e9bb71ad5aa888743 "pdflatex"
+  "main.lof" 1775410275.0144 382 14474af09a79c163bb5b54f5920895c6 "pdflatex"
+  "main.lot" 1775410275.01458 510 294332578a5c790e11d2b85221e72e1b "pdflatex"
+  "main.out" 1775410275.01229 4598 dc4adafc6f2c25d350ae321de5b8a595 "pdflatex"
+  "main.tex" 1775410270.85003 26467 bc909c35270711678706d09ee9d6e6c2 ""
+  "main.toc" 1775410275.01416 2536 030c88bc147c5ef3fd070790cf85f712 "pdflatex"
   "thesis-style.sty" 1667401672 9592 5c47887deb5d4656e4caa64833ee4753 ""
   (generated)
   "main.aux"

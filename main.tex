@@ -137,6 +137,40 @@ Aquest treball es centra en la resolució del TSP simètric euclidià, per la se
 \section{Aplicacions}
 \label{Aplicacions}
 
+Més enllà de l'interès purament teòric que té la investigació dels diferents mètodes de resolució del TSP, aquest problema apareix en una gran varietat d'aplicacions pràctiques. El TSP apareix de manera natural i directa en problemes de transport o logística, com podria ser la ruta que fa un autobús escolar o el transport de mercaderies. De fet, aquestes qüestions ja van motivar les primeres investigacions sobre el TSP als anys 40. Tanmateix, també apareix en àmbits no tan intuïtius com els que es descriuen a continuació:
+
+\subsection{Perforació de plaques de circuits impresos}
+
+Una aplicació directa del TSP és el problema de perforació de plaques de circuits impresos (PCB) \cite{grotschel1991drilling}. Per connectar un conductor d'una capa amb un conductor d'una altra capa, o per posicionar els pins dels circuits integrats, s'han de perforar forats a través de la placa. Els forats poden ser de diferents mides. Per perforar consecutivament dos forats de diàmetres diferents, el capçal de la màquina s'ha de moure fins a una caixa d'eines i canviar l'eina de perforació. Això requereix força temps. Per tant, és clar que cal triar un diàmetre, perforar tots els forats del mateix diàmetre, canviar el trepant, perforar els forats del següent diàmetre, etc.
+
+Així, aquest problema de perforació es pot veure com una sèrie de TSP, un per a cada diàmetre de forat, on les ``ciutats'' són la posició inicial i el conjunt de tots els forats que es poden perforar amb el mateix trepant. La ``distància'' entre dues ciutats ve donada pel temps que es triga a moure el capçal de perforació d'una posició a l'altra. L'objectiu és minimitzar el temps de desplaçament del capçal de la màquina.
+
+\subsection{Revisió de turbines de gas}
+
+Una altra aplicació del TSP es troba en el manteniment i revisió de turbines de gas en motors d'aeronaus \cite{plante1987product}. Per tal de garantir un flux de gas uniforme a través de les turbines, hi ha conjunts de pales guia (nozzle-guide vane assemblies) situats a cada etapa de la turbina. Aquests conjunts consisteixen en un nombre de pales disposades al llarg de la seva circumferència, cadascuna amb característiques individuals.
+
+La disposició adequada d'aquestes pales pot comportar beneficis significatius, com ara la reducció de vibracions, una major uniformitat del flux i una disminució del consum de combustible. El problema de determinar l'ordre òptim de col·locació de les pales es pot modelitzar com un TSP amb una funció objectiu especial.
+
+\subsection{Cristal·lografia de raigs X}
+
+L'anàlisi de l'estructura de materials cristal·lins mitjançant tècniques de difracció de raigs X constitueix una altra aplicació rellevant del TSP \cite{bland1989large}. En aquest context, un difractòmetre de raigs X s'utilitza per obtenir informació sobre l'estructura interna del material. Per fer-ho, un detector mesura la intensitat de les reflexions de raigs X des de diferents posicions.
+
+Tot i que cada mesura es pot realitzar ràpidament, el temps necessari per posicionar el dispositiu és considerable, especialment quan cal visitar centenars de milers de posicions. El temps de desplaçament entre dues posicions es pot calcular amb gran precisió, i el resultat final de l'experiment no depèn de l'ordre en què es realitzen les mesures. Tanmateix, el temps total sí que en depèn. Per aquest motiu, el problema consisteix a trobar una seqüència de posicions que minimitzi el temps total de desplaçament.
+
+\subsection{Aplicacions en genòmica i bioinformàtica}
+
+El TSP també té aplicacions en l'àmbit de la genòmica, especialment en la construcció de mapes genètics i en problemes de seqüenciació. En aquests contextos, sovint es disposa d'un conjunt de fragments o mapes locals que s'han d'integrar en una única estructura coherent. Aquest problema es pot modelitzar com un TSP en què les ``ciutats'' representen els fragments, i el cost de desplaçament entre dos elements reflecteix la probabilitat o qualitat de la seva adjacència \cite{agarwala2000radiation, stewart2001mouse}.
+
+A més, problemes relacionats amb la reconstrucció de seqüències d'ADN també es poden formular en termes del TSP. En aquest cas, es considera un conjunt de cadenes d'ADN de longitud fixa que s'han d'integrar en una seqüència global més curta possible. El cost entre dues cadenes es defineix en funció del solapament màxim entre elles, i l'objectiu és trobar un ordre que minimitzi la longitud total de la seqüència resultant \cite{pevzner2000computational}.
+
+\subsection{Planificació d'observacions astronòmiques}
+
+En l'àmbit de l'enginyeria espacial, el TSP s'ha utilitzat per optimitzar la seqüència d'observació d'objectes celestes en missions amb satèl·lits. En aquest cas, les ``ciutats'' corresponen als objectes a observar, i el cost de desplaçament representa el combustible necessari per reorientar els satèl·lits entre observacions consecutives \cite{spears2000fuel}.
+
+L'objectiu és determinar l'ordre d'observació que minimitzi el consum total de combustible, fet que pot tenir un impacte significatiu en la viabilitat i durada de la missió.
+
+
+
 
 \section{Motivació}
 \label{Motivació}
@@ -145,6 +179,7 @@ Es compara heuristics vs xxnn, cal explicar per sobre què es diferencien i perq
 Quins són els treballs similars que hi ha a la literatura i/o quina literatura ha servit de base per a desenvolupar el treball?
 Si hi ha treballs similars, que diferencia aquest treball dels ja existents?
 Quines són les contribucions més importants del treball (e.g., recopilació de dades, desenvolupament de mètodes i algorismes, experiments, representació de la informació obtinguda, ...)?
+
 
 
 \section{Resultats}

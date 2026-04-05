@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ThesisStyleBreakable.bst
 Database file #1: biblio.bib
-You've used 4 entries,
+You've used 11 entries,
             2415 wiz_defined-function locations,
-            578 strings with 5006 characters,
-and the built_in function-call counts, 1220 in all, are:
-= -- 111
-> -- 54
-< -- 0
-+ -- 18
-- -- 18
-* -- 77
-:= -- 218
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 22
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 50
-empty$ -- 97
-format.name$ -- 22
-if$ -- 242
+            618 strings with 6159 characters,
+and the built_in function-call counts, 4050 in all, are:
+= -- 412
+> -- 158
+< -- 4
++ -- 55
+- -- 52
+* -- 270
+:= -- 661
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 61
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 182
+empty$ -- 297
+format.name$ -- 63
+if$ -- 845
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 23
-num.names$ -- 8
-pop$ -- 35
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 73
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 81
 quote$ -- 0
-skip$ -- 39
+skip$ -- 153
 stack$ -- 0
-substring$ -- 28
-swap$ -- 5
-text.length$ -- 0
+substring$ -- 200
+swap$ -- 45
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
+type$ -- 80
 warning$ -- 0
-while$ -- 8
-width$ -- 8
-write$ -- 51
+while$ -- 34
+width$ -- 16
+write$ -- 145

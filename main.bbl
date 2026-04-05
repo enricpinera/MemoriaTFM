@@ -1,5 +1,15 @@
 \begin{thebibliography}{xxxx}
 
+\bibitem[Agarwala 2000]{agarwala2000radiation}
+R.~Agarwala, D.~L. Applegate, D.~Maglott, G.~D. Schuler and A.~A. Sch{\"a}ffer.
+\newblock {\em A Fast and Scalable Radiation Hybrid Map Construction and Integration Strategy}.
+\newblock Genome Research, 2000.
+
+\bibitem[Bland 1989]{bland1989large}
+R.~E. Bland and D.~E. Shallcross.
+\newblock {\em Large Traveling Salesman Problems Arising from Experiments in X-ray Crystallography: A Preliminary Report on Computation}.
+\newblock Operations Research Letters, vol.~8, no.~3, pages 125--128, 1989.
+
 \bibitem[Coleman 1974]{Coleman1974}
 Rodney Coleman.
 \newblock Stochastic processes.
@@ -10,14 +20,39 @@ Concorde.
 \newblock {\em {Concorde TSP Solver}}, (Last Updated: March 2015).
 \newblock Available at \url{https://www.math.uwaterloo.ca/tsp/concorde.html}.
 
+\bibitem[Grötschel 1991]{grotschel1991drilling}
+Martin Grötschel, Michael Jünger and Gerhard Reinelt.
+\newblock {\em Optimal Control of Plotting and Drilling Machines: A Case Study}.
+\newblock Mathematical Methods of Operations Research, vol.~35, no.~1, pages 61--84, 1991.
+
 \bibitem[MVTec 021]{Halcon}
 MVTec.
 \newblock {\em {MVTec Software GmbH HALCON - The power of machine vision}}, (Accessed: June 2021).
 \newblock Available at \url{https://www.mvtec.com/products/halcon/}.
 
+\bibitem[Pevzner 2000]{pevzner2000computational}
+Pavel~A. Pevzner.
+\newblock Computational molecular biology: An algorithmic approach.
+\newblock MIT Press, 2000.
+
+\bibitem[Plante 1987]{plante1987product}
+R.~D. Plante, T.~J. Lowe and R.~Chandrasekaran.
+\newblock {\em The Product Matrix Traveling Salesman Problem: An Application and Solution Heuristics}.
+\newblock Operations Research, vol.~35, pages 772--783, 1987.
+
 \bibitem[Ruiz 2008]{Ruiz2008}
 M~Ruiz, I~Boada, I~Viola, S~Bruckner, M~Feixas and M~Sbert.
 \newblock {\em {Obscurance-based Volume Rendering Framework}}.
 \newblock Symposium A Quarterly Journal In Modern Foreign Literatures, vol.~i, 2008.
+
+\bibitem[Spears 2000]{spears2000fuel}
+W.~M. Spears and D.~F. Spears.
+\newblock {\em Fuel Saving Strategies for Separated Spacecraft Interferometry}.
+\newblock Proceedings of SPIE, 2000.
+
+\bibitem[Stewart 2001]{stewart2001mouse}
+E.~A. et~al. Stewart.
+\newblock {\em A Radiation Hybrid Transcript Map of the Mouse Genome}.
+\newblock Nature Genetics, vol.~29, pages 194--200, 2001.
 
 \end{thebibliography}
