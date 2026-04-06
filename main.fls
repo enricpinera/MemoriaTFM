@@ -363,6 +363,9 @@ INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mat
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchb8c.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchb8c.vf
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb8c.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchri8t.tfm
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchri8t.vf
+INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chri8t.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr7v.vf
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr7v.tfm
 INPUT ./imatges/2-opt_3-opt.png
@@ -370,12 +373,9 @@ INPUT ./imatges/2-opt_3-opt.png
 INPUT ./imatges/2-opt_3-opt.png
 INPUT ./imatges/2-opt_3-opt.png
 INPUT ./imatges/2-opt_3-opt.png
-INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchri8t.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchr8t.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchr8t.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchb8c.tfm
-INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchri8t.vf
-INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chri8t.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr8t.vf
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8t.tfm
 INPUT /usr/local/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchb8c.vf

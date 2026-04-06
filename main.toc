@@ -8,22 +8,22 @@
 \contentsline {subsection}{\numberline {1.2.4}Aplicacions en genòmica i bioinformàtica}{3}{subsection.1.2.4}%
 \contentsline {subsection}{\numberline {1.2.5}Planificació d'observacions astronòmiques}{4}{subsection.1.2.5}%
 \contentsline {section}{\numberline {1.3}Motivació}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Resultats}{4}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Estat de l'art}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Investigació i anàlisi de les diferents heurístiques existents}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Algorismes heurístics de construcció de circuits}{5}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Closest neighbor}{5}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Greedy}{6}{subsubsection.2.1.1.2}%
-\contentsline {subsection}{\numberline {2.1.2}Algorismes heurístics de millora de circuits}{6}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}2-opt i 3-opt}{6}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Lin-Kernighan}{7}{subsubsection.2.1.2.2}%
-\contentsline {section}{\numberline {2.2}Implementació d'heurístics clàssics}{7}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Preliminars}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Formulació matemàtica del TSP}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Formulació del sTSP}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Formulació del aTSP}{12}{subsection.3.1.2}%
-\contentsline {chapter}{\numberline {4}Planificació i Metodologia}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Contribució Metodològica}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Resultats}{17}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusions i treball futur}{19}{chapter.7}%
-\contentsline {chapter}{Bibliografia}{21}{chapter*.6}%
+\contentsline {section}{\numberline {1.4}Resultats}{5}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Estat de l'art}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Investigació i anàlisi de les diferents heurístiques existents}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Algorismes heurístics de construcció de circuits}{7}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Closest neighbor}{7}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Greedy}{8}{subsubsection.2.1.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Algorismes heurístics de millora de circuits}{8}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}2-opt i 3-opt}{8}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Lin-Kernighan}{9}{subsubsection.2.1.2.2}%
+\contentsline {section}{\numberline {2.2}Implementació d'heurístics clàssics}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Preliminars}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Formulació matemàtica del TSP}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Formulació del sTSP}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Formulació del aTSP}{14}{subsection.3.1.2}%
+\contentsline {chapter}{\numberline {4}Planificació i Metodologia}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Contribució Metodològica}{17}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Resultats}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusions i treball futur}{21}{chapter.7}%
+\contentsline {chapter}{Bibliografia}{23}{chapter*.6}%

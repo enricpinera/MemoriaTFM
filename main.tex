@@ -170,12 +170,30 @@ En l'àmbit de l'enginyeria espacial, el TSP s'ha utilitzat per optimitzar la se
 L'objectiu és determinar l'ordre d'observació que minimitzi el consum total de combustible, fet que pot tenir un impacte significatiu en la viabilitat i durada de la missió.
 
 
-
-
 \section{Motivació}
 \label{Motivació}
+
+En els últims anys s'ha produït un gran avenç en el camp de les xarxes neuronals. Les altes capacitats computacionals dels dispositius actuals permeten entrenar models de \textit{machine learning} amb unes limitacions molt menys restrictives que les que hi havia fa només uns anys i, per tant, s'han pogut posar en pràctica models teòrics que ja existien des de fa dècades i que només s'havien aplicat amb un nombre molt petit de paràmetres a causa de les limitacions computacionals.
+
+\medskip
+
+Aquest treball té com a objectiu proposar una nova manera de resoldre el TSP, aprofitant precisament els avenços en computació i \textit{machine learning} dels últims anys. En particular, es planteja dissenyar i entrenar una Xarxa Neuronal de Gràfics (GNN) i/o un Transformer capaç de resoldre el problema del TSP de manera eficient i competitiva en comparació amb els heurístics clàssics.
+
+\medskip
+
+Com ja s'ha comentat anteriorment, el TSP és un problema NP-complet. Això implica que, tot i que existeixen algoritmes per trobar la solució òptima, el temps computacional necessari és molt elevat i sovint inassumible en escenaris on cal obtenir solucions en un temps raonable o en problemes amb varis milers de ciutats.
+
+\medskip
+
+S'han dedicat molts anys de recerca a desenvolupar algoritmes heurístics que, tot i no garantir una solució òptima, ofereixen solucions de bona qualitat en un temps computacional raonable. En aquest context, aquest treball se centra en el desenvolupament d'un nou heurístic i en la seva comparació, tant en qualitat de la solució com en temps computacional, amb alguns dels heurístics clàssics més coneguts.
+
+\medskip
+
+Aquesta nova manera de resoldre el TSP mitjançant xarxes neuronals proporciona un enfocament completament diferent del dels heurístics clàssics. En aquest nou escenari, el temps computacional no depèn directament dels paràmetres del graf, sinó del temps que triga el model a fer una predicció; és a dir, del temps necessari per propagar la informació del graf a través dels pesos i transformacions pròpies de la xarxa neuronal. Així, el temps d'inferència s'espera que sigui significativament inferior al dels heurístics clàssics. En contraposició, el cost computacional principal es concentra en el procés d'entrenament del model, que es duu a terme prèviament. Aquest procés requereix, en efecte, un temps computacional molt més elevat que el dels heurístics clàssics. Tanmateix, es pot considerar com un cost fix que s'assumeix una sola vegada i que posteriorment permet obtenir solucions de manera molt ràpida.
+
 Perquè es important avui en dia?
-Es compara heuristics vs xxnn, cal explicar per sobre què es diferencien i perquè és interessant comparar-los. Quins beneficis podria tenir utilitzar una xxnn?
+Es compara heuristics vs xxnn, cal explicar per sobre què es diferencien i perquè és interessant comparar-los.
+Quins beneficis podria tenir utilitzar una xxnn?
 Quins són els treballs similars que hi ha a la literatura i/o quina literatura ha servit de base per a desenvolupar el treball?
 Si hi ha treballs similars, que diferencia aquest treball dels ja existents?
 Quines són les contribucions més importants del treball (e.g., recopilació de dades, desenvolupament de mètodes i algorismes, experiments, representació de la informació obtinguda, ...)?
